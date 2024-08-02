@@ -18,6 +18,7 @@ Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+// Route pour les différents outils de l'application
 Route::get('/utils', function () {
     return Inertia::render('Utils');
 });
