@@ -10,6 +10,8 @@ Application HubRun
 -   Tailwind
 -   Nginx for the prod
 
+*   PHPUnit pour les test
+
 ## FONCTIONNALITES
 
 -   Calcul valeur %VMA
